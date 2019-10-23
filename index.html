@@ -7,6 +7,7 @@
   </head>
   <body>
     <h1>Polycule Diagram Generator</h1>
+    <div id="paper"></div>
     <form>
       <fieldset>
           <legend>Generate your Diagram</legend>
@@ -16,11 +17,15 @@
           <input type="text" partner1="partner1" id="partner1Name"><br>
           Partner Two:
           <input type="text" partner2="partner2" id="partner2Name"><br>
-          Partner Three: 
+          Partner Three:
           <input type="text" partner3="partner3" id="partner3Name"></br>
           <input type="submit" id="submitButton">
       </fieldset>
     </form>
+    <div onload= function() {
+    }
+    <script src="DraculaGraph/dracula.min.js"></script>
+    <script src="DraculaGraph/require.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
